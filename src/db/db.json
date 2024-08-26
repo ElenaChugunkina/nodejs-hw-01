@@ -1,3 +1,30 @@
-{
-  "contacts": []
-}
+[
+  {
+    "id": "a414b448-8e5d-4a99-bc56-10541709d0c3",
+    "name": "Dr. Michael Schamberger",
+    "phone": "(585) 261-5922",
+    "email": "Sylvia75@hotmail.com",
+    "job": "District Research Representative"
+  },
+  {
+    "id": "9914d4b1-62c3-4547-9aed-5833bc840c3d",
+    "name": "Josefina Kuphal",
+    "phone": "(602) 811-3660 x5723",
+    "email": "Dedrick53@yahoo.com",
+    "job": "Legacy Paradigm Representative"
+  },
+  {
+    "id": "9776e76b-085e-4db3-a16c-f757eb7a5d56",
+    "name": "Elijah MacGyver",
+    "phone": "948.315.3710 x99652",
+    "email": "Vicenta.Jacobi52@gmail.com",
+    "job": "Investor Interactions Strategist"
+  },
+  {
+    "id": "23cd378e-10ee-4db8-8455-ab24852234f9",
+    "name": "Lynne Reilly",
+    "phone": "1-598-201-4716 x957",
+    "email": "Clay.Robel@gmail.com",
+    "job": "District Response Director"
+  }
+]

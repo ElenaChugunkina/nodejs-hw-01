@@ -1,13 +1,12 @@
-import { PATH_DB } from '../constants/contacts.js';
+
+
 import getAllContacts from './getAllContacts.js';
-import fs from 'node:fs/promises';
+import updateContacts from './updateContacts.js';
 
-
-export const removeLastContact = async () => {
-    const contactsList = await getAllContacts();
-    contactsList.pop();
-    await fs.writeFile(PATH_DB, JSON.stringify(contactsList, null, 2));
-
+const removeLastContact = async () => {
+	const contactList = await getAllContacts();
+	contactList.pop();
+	await updateContacts(contactList);
 };
 
 removeLastContact();
